@@ -42,8 +42,68 @@ header ul a
 
 header ul a:hover
 {
-	border: solid .1em blue;
+	border: solid .1em white;
 	border-radius: 1em;
+}
+
+.heading
+{
+	display: left;
+	margin-top: .5em;
+	margin-left: .5em;
+}
+
+.brief
+{
+	display: flex;
+	flex-direction: row;
+	margin-left: 25%;
+	margin-top: 1em;
+}
+
+.brief img
+{
+	max-height: 20em;
+	width: auto;
+}
+
+.brief p
+{
+	margin-left: 1em;
+	margin-right: 25%;
+}
+
+#about-section
+{
+	margin-top: 1em;
+	margin-left: .5em;
+}
+
+#about-section p
+{
+	margin: .5em .5em .5em 0;
+}
+
+#footer
+{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	text-align: center;
+	margin-top 2em;
+	padding-top: 1em;
+	background-color: #586689;
+}
+
+#footer li
+{
+	margin-top: .25em;
+	list-style: none;
+}
+
+#footer li a
+{
+	margin: 0 .25em 0 .25em;
 }
 
 @media all and (max-width: 600px)
@@ -70,5 +130,27 @@ header ul a:hover
 	{
 		text-align: center;
 		padding: 10px;
+	}
+
+	.heading
+	{
+		margin-left: .25em;
+	}
+
+	.brief
+	{
+		flex-direction: column;
+		margin-left: 0;
+	}
+
+	.brief img
+	{
+		width: 100%;
+		height: auto;
+	}
+
+	.brief p
+	{
+		margin: .45em 0 .45em 0;
 	}
 }
