@@ -1,0 +1,86 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	color: #F7F7FF;
+	font-family: 'Space Grotesk', sans-serif;
+}
+
+body
+{
+	background-color: #273043;
+}
+
+header h1
+{
+	margin-top: .5em;
+	margin-left: .5em;
+	text-align: center;
+}
+
+.section
+{
+	margin-top: .5em;
+	margin-left: .5em;
+}
+
+#founders
+{
+	display: left;
+}
+
+#founders img
+{
+	width: auto;
+	height: 10em;
+	margin: 0 .25em 0 .25em;
+}
+
+#intro p
+{
+	display: right;
+}
+
+#goals h2
+{
+	margin-top: 1em;
+}
+
+#goals > ul
+{
+	margin-top: 1em;
+}
+
+#goals > ul > ul
+{
+	margin-left: 2.5em;
+}
+
+#Impact > img
+{
+	height: 10em;
+	width: auto;
+	display: left;
+}
+
+#Impact > p
+{
+	text-align: justify;
+	margin-right: 1em;
+}
+
+#Impact
+{
+	margin-bottom: 1em;
+}
+
+.footer_text
+{
+	text-align: center;
+}
+
+#footer > a
+{
+	text-decoration: none;
+	display: center;
+}
